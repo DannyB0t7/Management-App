@@ -14,7 +14,7 @@ function Project({ projects, onAddTask, onDeleteProject, onDeleteTask }) {
   const date = `${projects[0].date.day} ${projects[0].date.month} ${projects[0].date.year}`;
 
   return (
-    <div className="mt-32 flex flex-col md:w-2/3 px-2 w-full">
+    <div className="mt-36 flex flex-col md:w-2/4 px-4 w-full mx-auto max-w-3xl">
       <div className="flex items-center justify-between">
         <h1 className="text-3xl font-bold text-stone-600 mb-2">
           {projects[0].title}

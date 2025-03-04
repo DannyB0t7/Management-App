@@ -44,7 +44,7 @@ function AddProject({ onAddProject, onProjects }) {
   };
 
   return (
-    <div className="mt-24 flex flex-col md:w-2/4 px-2 w-full">
+    <div className="mt-36 flex flex-col md:w-2/4 px-4 w-full mx-auto max-w-3xl">
       <form onSubmit={addProjectHandler}>
         <div className="flex items-center justify-end gap-2 my-4">
           <Button

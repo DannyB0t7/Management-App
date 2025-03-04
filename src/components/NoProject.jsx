@@ -4,12 +4,12 @@ import Button from "../UI/Button";
 
 function NoProject({ onAddProject }) {
   return (
-    <div className="mt-24 flex flex-col items-center w-full px-2 md:w-2/4">
+    <div className="mt-36 flex flex-col items-center w-full gap-5 px-4 md:w-2/4 mx-auto max-w-3xl">
       <img className="w-16 h-16 object-contain mx-auto" src={noProjectImg} />
-      <h2 className="text-xl font-bold text-stone-500 my-4">
+      <h2 className="text-xl font-bold text-stone-500">
         No Project Selected
       </h2>
-      <p className="text-stone-400 mb-4">
+      <p className="text-stone-400">
         Select a project or get started with a new one
       </p>
       <Button
